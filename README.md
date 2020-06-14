@@ -1,2 +1,2 @@
 # autoemail
-Send email by using the sendinblue API
+Send email in R using the sendinblue API
