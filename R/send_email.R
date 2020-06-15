@@ -11,6 +11,7 @@
 #' @param subject Subject of the message.
 #' @param attachment.filename List of attachments. The base64 content of the attachment along with the attachment name must be specified.
 #' @return HTTP response
+#' @export
 send_email <- function(api.key, sender.name, sender.email, to, cc=c(), replyTo, textContent, subject, attachment.filename=c()) {
 
   url <- "https://api.sendinblue.com/v3/smtp/email"
