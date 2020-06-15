@@ -8,6 +8,6 @@ Send email in R using the sendinblue API.
 
 ## How to use it
 
-See ./test/example.R
+See ./R/example.R
 
 
